@@ -39,7 +39,7 @@ powershell
 
     .\Ransomware-Simulation.ps1
 
-    Review the disclaimer and type Yes to confirm that you are executing the simulation in a safe, controlled environment.
+    Review the disclaimer and type **I AGREE** to confirm that you are executing the simulation in a safe, controlled environment.
 
     Observe the encryption simulation, file renaming, and creation of persistence mechanisms.
 
@@ -53,7 +53,5 @@ Contribution
 
 Feel free to fork this repository, make modifications, or report any issues. This project is intended for educational purposes and should be treated with responsibility.
 
-3. Navigate to the directory where the script is located:
-   ```powershell
-   cd path\to\your\script
+
 
