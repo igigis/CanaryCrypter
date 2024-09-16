@@ -32,6 +32,26 @@ We take no responsibility for any damage, data loss, or disruptions that may occ
    
 2. Open PowerShell as **Administrator**:
    - Right-click the Start Menu and select **Windows PowerShell (Admin)**.
+  
+   - Run the script:
+
+powershell
+
+    .\Ransomware-Simulation.ps1
+
+    Review the disclaimer and type Yes to confirm that you are executing the simulation in a safe, controlled environment.
+
+    Observe the encryption simulation, file renaming, and creation of persistence mechanisms.
+
+Important Notes
+
+    Virtual Machine Only: Ensure you are running this in a fully isolated virtual machine to avoid any unintended disruptions.
+    Monitoring Tools: Use cybersecurity monitoring tools (such as Huntress, EDR solutions, or similar) to observe the changes made by the script, which could trigger alerts.
+    Restoration: The script does not provide automatic file restoration. Make sure you have backups of any files used in the simulation environment.
+
+Contribution
+
+Feel free to fork this repository, make modifications, or report any issues. This project is intended for educational purposes and should be treated with responsibility.
 
 3. Navigate to the directory where the script is located:
    ```powershell
