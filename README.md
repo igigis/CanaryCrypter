@@ -37,7 +37,7 @@ We take no responsibility for any damage, data loss, or disruptions that may occ
 
 powershell
 
-    .\Ransomware-Simulation.ps1
+    ./Ransomware-Simulation.ps1
 
     Review the disclaimer and type **I AGREE** to confirm that you are executing the simulation in a safe, controlled environment.
 
