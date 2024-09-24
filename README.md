@@ -35,6 +35,9 @@ We take no responsibility for any damage, data loss, or disruptions that may occ
   
    - Run the script:
 
+Set the execution policy to allow script execution (if not already set):
+
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 powershell
 
     ./CanaryCrypt.ps1
